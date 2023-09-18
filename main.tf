@@ -10,7 +10,7 @@ terraform {
 
 resource "mongodbatlas_project" "testProject" {
   name   = "TestDemo"
-  org_id = "Add yout ORG-ID"
+  org_id = "Add your ORG-ID"
 }
 
 resource "mongodbatlas_project_ip_access_list" "testIpAccessList" {
